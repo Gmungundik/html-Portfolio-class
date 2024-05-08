@@ -1,0 +1,53 @@
+.box {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+h1{
+    
+    background-color: gold;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 10px 10px 0px 0px;
+    /* display: inline-block; */
+    
+    
+
+    
+}
+.box ul{
+   
+    display: inline;
+    margin-top: 0 ;
+
+}
+
+.box ul li{
+    border-top: 1px solid black;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    
+    list-style-type: none;
+    
+    margin-top: 0 ;
+    
+}
+
+.box ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    /* color: black; */
+}
+
+.box ul li:hover{
+    background-color: black;
+    color: white;
+}
+.box ul li:hover last-child p{
+    border-radius: 0 0 10px 10px;
+}
